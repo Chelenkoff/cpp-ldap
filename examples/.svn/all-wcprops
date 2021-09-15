@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/17/trunk/examples
+END
+test.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/13/trunk/examples/test.cpp
+END
+groups.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/13/trunk/examples/groups.cpp
+END
+group_ldap_acl.8
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/13/trunk/examples/group_ldap_acl.8
+END
+group_ldap_acl.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/18/trunk/examples/group_ldap_acl.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/13/trunk/examples/Makefile
+END
+ping.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/13/trunk/examples/ping.cpp
+END
