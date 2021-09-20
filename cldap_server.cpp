@@ -54,9 +54,29 @@ const std::string & Ldap::Server::URI(void) const
     return ldap_uri;
 }
 
+void Ldap::Server::SetURI(const std::string & uri, bool ssl)
+{
+    CreateURI(uri, ssl);
+}
+
 const std::string & Ldap::Server::BindDN(void) const
 {
     return ldap_bind_dn;
+}
+
+void Ldap::Server::SetBindDN( const std::string & dn )
+{
+    ldap_bind_dn = dn;
+}
+
+const std::string & Ldap::Server::BindPW(void) const
+{
+    return ldap_bind_pw;
+}
+
+void Ldap::Server::SetBindPW( const std::string & pw )
+{
+    ldap_bind_pw = pw;
 }
 
 bool Ldap::Server::Connect(const std::string & uri, bool ssl)

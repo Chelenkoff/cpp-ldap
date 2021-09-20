@@ -33,7 +33,13 @@ namespace Ldap
             ~Server();
 
             const std::string & URI(void) const;
+            void SetURI(const std::string & uri, bool ssl = false);
+
             const std::string & BindDN(void) const;
+            void SetBindDN( const std::string & dn );
+
+            const std::string & BindPW(void) const;
+            void SetBindPW( const std::string & pw );
 
             bool Connect(const std::string & uri = "", bool ssl = false);
             void Disconnect(void);
